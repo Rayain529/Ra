@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ray ray | Главная страница</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      margin: 0;
+      padding: 0;
+      direction: ltr;
+      background: #000000;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #222222;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #111111;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      display: inline-block;
+      padding: 12px 0;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #111111cc;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #333333;
+    }
+
+    h1, h2 {
+      color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      color: #888888;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    .social-links a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Привет, я ray ray</h1>
+  <p>Мусульманин из России, люблю холод, снег и внутренний покой ❄️</p>
+</header>
+
+<nav>
+  <a href="#">Главная</a>
+  <a href="#">Обо мне</a>
+  <a href="#">Контакты</a>
+</nav>
+
+<section>
+  <h2>Кто я?</h2>
+  <p>
+    Меня зовут ray ray. Я мусульманин, живу в России. Мечтаю жить в самом холодном месте мира ❄️.  
+    Моя любимая песня — "Sandu Ciorba".  
+    Я люблю букву T.  
+  </p>
+</section>
+
+<section class="social-links">
+  <h2>Мои соцсети</h2>
+  <p>
+    <a href="https://www.instagram.com/rian_g_00?igsh=MTVmd2hzZGF4cmFiaQ==" target="_blank" rel="noopener noreferrer">Instagram</a>
+  </p>
+</section>
+
+<footer>
+  &copy; 2025 ray ray — Все права защищены
+</footer>
+
+</body>
+</html>
